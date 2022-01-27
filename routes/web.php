@@ -14,7 +14,7 @@ use App\Http\Controllers\ExerciseController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/document', function () {
     return view('welcome');
 });
 
