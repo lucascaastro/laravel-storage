@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/images', [
+Route::post('/document', [
     ExerciseController::class,
     'photo'
 ]);

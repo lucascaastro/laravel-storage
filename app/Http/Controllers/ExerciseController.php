@@ -10,8 +10,7 @@ class ExerciseController extends Controller
 
     public function photo(Request $request)
     {
-        $request->image1->storeAs('public/images', 'file1.jpg');
-        $request->image2->storeAs('public/images', 'file2.jpg');
+        $request->file->storeAs('public/documents', 'file.jpg');
 
         return 'Deu certo';
     }

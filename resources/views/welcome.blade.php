@@ -9,10 +9,9 @@
 </head>
 
 <body>
-    <form action="/images" method="POST" enctype="multipart/form-data">
+    <form action="/document" method="POST" enctype="multipart/form-data">
         @csrf
-        <input type="file" name="image1"><br>
-        <input type="file" name="image2"><br>
+        <input type="file" name="file">
         <button type="submit">Enviar</button>
     </form>
 </body>
